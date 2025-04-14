@@ -5,4 +5,4 @@ const expensesData = [
     { id: 2, name: "Rent", description: "Monthly rent payment", category: "Housing", amount: 1000, date: "2025-04-01" }
 ];
 
-export default expenses;
+export default expensesData;
