@@ -35,7 +35,7 @@ function AddExpense({ expenses, setExpenseData }) {
     <div className="add-expense-container">
       <aside className="add-expense-form">
         <form onSubmit={handleSubmit}>
-          <h3>Add Expense</h3>
+          <h2>Add Expense</h2>
           <p>Enter your expense details below</p>
           <input
             type="text"

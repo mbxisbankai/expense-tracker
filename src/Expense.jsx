@@ -1,4 +1,5 @@
 import React from "react";
+
 function Expense({ name, description, category, amount, date}){
  return (
     <tr>
