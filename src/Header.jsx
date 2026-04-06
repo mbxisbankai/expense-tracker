@@ -1,14 +1,19 @@
 import React from "react";
+import "./Header.css";
 
-function Header(){
-    return(
-        <div>
-            <h1>Expense Tracker</h1>
-            <p>
-                Start taking control of your finances and life. Record,<br />
-                categorize and analyze your spending.
-            </p>
+function Header() {
+    return (
+        <div className="header">
+            <div className="header-content">
+                <h1 className="header-title">
+                    Expense <span>Tracker</span>
+                </h1>
+                <p className="header-subtitle">
+                    Take control of your finances. Record, categorize, and analyze your spending with ease.
+                </p>
+            </div>
         </div>
-    )
+    );
 }
+
 export default Header;

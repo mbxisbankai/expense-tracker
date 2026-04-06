@@ -1,0 +1,31 @@
+.header {
+    width: 100%;
+    /* padding: 60px 20px; */
+    background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.header-content {
+    text-align: left;
+    max-width: 600px;
+}
+
+.header-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+}
+
+.header-title span {
+    color: #00c896;
+}
+
+.header-subtitle {
+    font-size: 1.2rem;
+    color: #cfcfe0;
+    line-height: 1.6;
+}
